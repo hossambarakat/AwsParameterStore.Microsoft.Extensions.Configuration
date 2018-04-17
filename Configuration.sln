@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration.AwsParameterStore", "Configuration.AwsParameterStore\Configuration.AwsParameterStore.csproj", "{A2C0DD69-467D-4DD6-B29D-4B959F0F6218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration.AwsParameterStore.Tests", "Configuration.AwsParameterStore.Tests\Configuration.AwsParameterStore.Tests.csproj", "{7A62D24F-16D7-48CA-BF7C-D405139D6310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2C0DD69-467D-4DD6-B29D-4B959F0F6218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C0DD69-467D-4DD6-B29D-4B959F0F6218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C0DD69-467D-4DD6-B29D-4B959F0F6218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C0DD69-467D-4DD6-B29D-4B959F0F6218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A62D24F-16D7-48CA-BF7C-D405139D6310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A62D24F-16D7-48CA-BF7C-D405139D6310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A62D24F-16D7-48CA-BF7C-D405139D6310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A62D24F-16D7-48CA-BF7C-D405139D6310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D15D74CA-25FB-4CDB-AF51-633902E6BE16}
+	EndGlobalSection
+EndGlobal
