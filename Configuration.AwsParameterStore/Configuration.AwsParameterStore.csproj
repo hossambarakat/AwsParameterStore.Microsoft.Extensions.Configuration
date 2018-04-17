@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PackageId>Microsoft.Extensions.Configuration.AwsParameterStore</PackageId>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <Authors>Hossam Barakat</Authors>
   </PropertyGroup>
 
   <ItemGroup>
