@@ -13,4 +13,11 @@ test: off
 artifacts:
 - path: .\artifacts\**\*.nupkg
   name: Nuget
-deploy: off
+deploy:
+- provider: NuGet
+  server: https://www.myget.org/F/config-aws-parameter-store/api/v2/package
+  api_key:
+    secure: Suqgd79Mx6aCHHr3+iVkunFslGrHEd4pXhP1P8mwjF9yQVbCQphVEoQCxfX6gYA1
+  skip_symbols: true
+  on:
+    branch: master
