@@ -64,7 +64,7 @@ namespace Configuration.AwsParameterStore
             {
                 WithDecryption = true,
                 Recursive = true,
-                Path = _path,
+                Path = path,
                 NextToken = nextToken
             });
             return response;
