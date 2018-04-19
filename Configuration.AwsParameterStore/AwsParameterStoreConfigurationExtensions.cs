@@ -1,4 +1,4 @@
-﻿using Amazon.SimpleSystemsManagement;
+using Amazon.SimpleSystemsManagement;
 using Microsoft.Extensions.Configuration;
 using System;
 
@@ -6,7 +6,7 @@ namespace Configuration.AwsParameterStore
 {
     public static class AwsParameterStoreConfigurationExtensions
     {
-        public static IConfigurationBuilder AddSimpleSystemsManagement(
+        public static IConfigurationBuilder AddAwsParameterStore(
             this IConfigurationBuilder configurationBuilder,
             string path,
             IAwsParameterManager parameterManager)
