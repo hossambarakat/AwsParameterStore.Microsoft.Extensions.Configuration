@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Configuration.AwsParameterStore
+namespace AwsParameterStore.Microsoft.Extensions.Configuration
 {
     internal class AwsParameterStoreConfigurationProvider : ConfigurationProvider
     {

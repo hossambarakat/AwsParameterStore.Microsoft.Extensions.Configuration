@@ -1,7 +1,7 @@
-﻿using Amazon.SimpleSystemsManagement;
+using Amazon.SimpleSystemsManagement;
 using Microsoft.Extensions.Configuration;
 
-namespace Configuration.AwsParameterStore
+namespace AwsParameterStore.Microsoft.Extensions.Configuration
 {
     internal class AwsParameterStoreConfigurationSource : IConfigurationSource
     {

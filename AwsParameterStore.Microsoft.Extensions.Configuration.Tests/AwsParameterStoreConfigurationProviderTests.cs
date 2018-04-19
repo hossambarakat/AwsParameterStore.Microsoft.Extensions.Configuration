@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace Configuration.AwsParameterStore.Tests
+namespace AwsParameterStore.Microsoft.Extensions.Configuration.Tests
 {
     public class AwsParameterStoreConfigurationProviderTests
     {

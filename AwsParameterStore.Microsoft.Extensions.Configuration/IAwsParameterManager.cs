@@ -1,6 +1,6 @@
-﻿using Amazon.SimpleSystemsManagement.Model;
+using Amazon.SimpleSystemsManagement.Model;
 
-namespace Configuration.AwsParameterStore
+namespace AwsParameterStore.Microsoft.Extensions.Configuration
 {
     public interface IAwsParameterManager
     {

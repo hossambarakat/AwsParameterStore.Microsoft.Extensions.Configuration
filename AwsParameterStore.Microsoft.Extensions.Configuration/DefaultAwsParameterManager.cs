@@ -1,7 +1,7 @@
-﻿using Amazon.SimpleSystemsManagement.Model;
+using Amazon.SimpleSystemsManagement.Model;
 using Microsoft.Extensions.Configuration;
 
-namespace Configuration.AwsParameterStore
+namespace AwsParameterStore.Microsoft.Extensions.Configuration
 {
     public class DefaultAwsParameterManager : IAwsParameterManager
     {

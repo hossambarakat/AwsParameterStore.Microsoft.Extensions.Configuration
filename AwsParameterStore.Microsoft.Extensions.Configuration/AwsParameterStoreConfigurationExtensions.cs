@@ -2,7 +2,7 @@ using Amazon.SimpleSystemsManagement;
 using Microsoft.Extensions.Configuration;
 using System;
 
-namespace Configuration.AwsParameterStore
+namespace AwsParameterStore.Microsoft.Extensions.Configuration
 {
     public static class AwsParameterStoreConfigurationExtensions
     {

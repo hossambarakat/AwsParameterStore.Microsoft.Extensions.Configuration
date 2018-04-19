@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Configuration;
 using Xunit;
 
-namespace Configuration.AwsParameterStore.Tests
+namespace AwsParameterStore.Microsoft.Extensions.Configuration.Tests
 {
     public static class ConfigurationProviderExtensions
     {

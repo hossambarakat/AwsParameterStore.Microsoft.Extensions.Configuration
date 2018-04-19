@@ -1,4 +1,4 @@
-Microsoft.Extensions.Configuration.AwsParameterStore
+AwsParameterStore.Microsoft.Extensions.Configuration
 ===============
 
 [![Build Status](https://ci.appveyor.com/api/projects/status/loosxok30ptwjeei?svg=true)](https://ci.appveyor.com/project/HossamBarakat/configuration-awsparameterstore)
@@ -7,13 +7,13 @@ Microsoft.Extensions.Configuration.AwsParameterStore
 
 ## Getting Started
 
-You should install Microsoft.Extensions.Configuration.AwsParameterStore with [NuGet](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.AwsParameterStore):
+You should install AwsParameterStore.Microsoft.Extensions.Configuration with [NuGet](https://www.nuget.org/packages/AwsParameterStore.Microsoft.Extensions.Configuration):
 
-    Install-Package Microsoft.Extensions.Configuration.AwsParameterStore
+    Install-Package AwsParameterStore.Microsoft.Extensions.Configuration
 
 Or via the .NET Core command line interface:
 
-    dotnet add package Microsoft.Extensions.Configuration.AwsParameterStore
+    dotnet add package AwsParameterStore.Microsoft.Extensions.Configuration
 
 The provider is added to the `ConfigurationBuilder` using the `AddAwsParameterStore ` extension. The default method accepts one parameter `path` which is the prefix of the parameter store hierarchy.
 

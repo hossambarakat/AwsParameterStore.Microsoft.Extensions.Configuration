@@ -28,7 +28,7 @@ Task("Build")
     .IsDependentOn("RestoreNugetPackages")
     .Does(() =>
     {
-        var solution = "./Configuration.AwsParameterStore.sln";
+        var solution = "./AwsParameterStore.Microsoft.Extensions.Configuration.sln";
         Information("Building {0}", solution);
         DotNetCoreBuild(solution, new DotNetCoreBuildSettings
         {
@@ -41,7 +41,7 @@ Task("RunUnitTests")
     .IsDependentOn("Build")
     .Does(() =>
     {
-        DotNetCoreTest("./Configuration.AwsParameterStore.Tests/Configuration.AwsParameterStore.Tests.csproj", new DotNetCoreTestSettings
+        DotNetCoreTest("./AwsParameterStore.Microsoft.Extensions.Configuration.Tests/AwsParameterStore.Microsoft.Extensions.Configuration.Tests.csproj", new DotNetCoreTestSettings
         {
             Configuration=configuration,
             NoBuild=true,
@@ -54,7 +54,7 @@ Task("Package")
     .IsDependentOn("RunUnitTests")
     .Does(() =>
     {
-        DotNetCorePack("./Configuration.AwsParameterStore/Configuration.AwsParameterStore.csproj", new DotNetCorePackSettings
+        DotNetCorePack("./AwsParameterStore.Microsoft.Extensions.Configuration/AwsParameterStore.Microsoft.Extensions.Configuration.csproj", new DotNetCorePackSettings
         {
             Configuration=configuration,
             OutputDirectory=artifactDirectory,

@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Configuration.AwsParameterStore\Configuration.AwsParameterStore.csproj" />
+    <ProjectReference Include="..\AwsParameterStore.Microsoft.Extensions.Configuration\AwsParameterStore.Microsoft.Extensions.Configuration.csproj" />
   </ItemGroup>
 
 </Project>
