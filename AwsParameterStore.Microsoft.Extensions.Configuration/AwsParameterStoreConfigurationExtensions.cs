@@ -1,8 +1,10 @@
 using Amazon.SimpleSystemsManagement;
 using Microsoft.Extensions.Configuration;
 using System;
+using AwsParameterStore.Microsoft.Extensions.Configuration;
 
-namespace AwsParameterStore.Microsoft.Extensions.Configuration
+// ReSharper disable once CheckNamespace
+namespace Microsoft.Extensions.Configuration
 {
     public static class AwsParameterStoreConfigurationExtensions
     {
