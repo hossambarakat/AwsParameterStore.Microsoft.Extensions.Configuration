@@ -9,7 +9,7 @@
     <Copyright>Copyright Hossam Barakat</Copyright>
     <PackageTags>configuration;aws;cloud;amazon;</PackageTags>
     <PackageProjectUrl>https://github.com/hossambarakat/Configuration.AwsParameterStore</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/hossambarakat/Configuration.AwsParameterStore/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
