@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>AwsParameterStore.Microsoft.Extensions.Configuration</PackageId>
-    <VersionPrefix>0.5.0</VersionPrefix>
+    <VersionPrefix>0.6.0</VersionPrefix>
     <Authors>Hossam Barakat</Authors>
     <Description>AWS Systems Manager Parameter Store configuration provider implementation for Microsoft.Extensions.Configuration.</Description>
     <Copyright>Copyright Hossam Barakat</Copyright>
@@ -13,8 +13,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AWSSDK.SimpleSystemsManagement" Version="3.3.34" />
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+    <PackageReference Include="AWSSDK.SimpleSystemsManagement" Version="3.7.3.12" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
   </ItemGroup>
 
 </Project>

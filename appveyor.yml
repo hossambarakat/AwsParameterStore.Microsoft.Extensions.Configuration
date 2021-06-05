@@ -1,5 +1,5 @@
 version: '{build}'
-image: Visual Studio 2017
+image: Visual Studio 2019
 pull_requests:
   do_not_increment_build_number: true
 branches:
@@ -25,6 +25,6 @@ deploy:
   name: production
   skip_symbols: true
   api_key:
-    secure: B1uWAfsvwJBeIgDjU76pbcqRTrVemfu77qO79RNMmnvz9w8IbGyL7dkPv+9Qe0G3
+    secure: qzk6koY7KtqN10HqoHudSQtUQ5skUw5e6YxZn+KchDGQwehd+D0S/eDiw1O0xn5F
   on:
     appveyor_repo_tag: true
