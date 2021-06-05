@@ -28,7 +28,7 @@ jobs:
 
   pack:
     name: Pack
-    needs: [test]
+    needs: [build]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout sources
