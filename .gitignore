@@ -262,3 +262,5 @@ __pycache__/
 
 # Cake Tools
 tools/
+
+*.DS_Store
