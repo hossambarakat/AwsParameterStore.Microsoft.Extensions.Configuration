@@ -1,7 +1,7 @@
 AwsParameterStore.Microsoft.Extensions.Configuration
 ===============
 
-[![Build Status](https://ci.appveyor.com/api/projects/status/loosxok30ptwjeei?svg=true)](https://ci.appveyor.com/project/HossamBarakat/configuration-awsparameterstore)
+[![Continuous Integration](https://github.com/hossambarakat/AwsParameterStore.Microsoft.Extensions.Configuration/actions/workflows/ci.yml/badge.svg)](https://github.com/hossambarakat/AwsParameterStore.Microsoft.Extensions.Configuration/actions/workflows/ci.yml)
 
  [AWS Systems Manager Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) configuration provider implementation for [Microsoft.Extensions.Configuration](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/index?view=aspnetcore-2.1&tabs=basicconfiguration).
 
@@ -31,7 +31,7 @@ By default, AWS Access Key ID and AWS Secret Access Key are discovered from envi
 An AWS IAM account with `ssm:GetParametersByPath` permission.
 
 ## Reloading secrets
-Secrets are cached until IConfigurationRoot.Reload() is called. Expired, disabled, and updated secrets in the key vault are not respected by the application until Reload is executed.
+Secrets are cached until IConfigurationRoot.Reload() is called. Expired, disabled, and updated parameters in the Parameter Store are not respected by the application until Reload is executed.
 
 ```csharp
     Configuration.Reload();
