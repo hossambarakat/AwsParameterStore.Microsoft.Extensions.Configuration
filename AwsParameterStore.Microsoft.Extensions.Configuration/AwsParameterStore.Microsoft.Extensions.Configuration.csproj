@@ -3,23 +3,8 @@
   <PropertyGroup>
     <TargetFrameworks>net10.0;net9.0;net8.0;netstandard2.1;netstandard2.0;</TargetFrameworks>
     <PackageId>AwsParameterStore.Microsoft.Extensions.Configuration</PackageId>
-    <VersionPrefix>0.7.0</VersionPrefix>
-    <Authors>Hossam Barakat</Authors>
     <Description>AWS Systems Manager Parameter Store configuration provider implementation for Microsoft.Extensions.Configuration.</Description>
-    <Copyright>Copyright Hossam Barakat</Copyright>
     <PackageTags>configuration;aws;cloud;amazon;</PackageTags>
-    <PackageProjectUrl>https://github.com/hossambarakat/Configuration.AwsParameterStore</PackageProjectUrl>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-
-    <!-- SourceLink + deterministic builds + symbol package -->
-    <RepositoryUrl>https://github.com/hossambarakat/AwsParameterStore.Microsoft.Extensions.Configuration</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <EmbedUntrackedSources>true</EmbedUntrackedSources>
-    <Deterministic>true</Deterministic>
-    <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
-    <IncludeSymbols>true</IncludeSymbols>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,0 +1,26 @@
+<Project>
+
+  <PropertyGroup>
+    <!-- Shared package metadata -->
+    <VersionPrefix>0.7.0</VersionPrefix>
+    <Authors>Hossam Barakat</Authors>
+    <Copyright>Copyright Hossam Barakat</Copyright>
+    <PackageProjectUrl>https://github.com/hossambarakat/Configuration.AwsParameterStore</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <!-- Repository / SourceLink -->
+    <RepositoryUrl>https://github.com/hossambarakat/AwsParameterStore.Microsoft.Extensions.Configuration</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+
+    <!-- Deterministic builds -->
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
+
+    <!-- Symbol package -->
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+</Project>
